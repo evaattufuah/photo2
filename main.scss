@@ -1,0 +1,480 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root{
+    font-size: 62.5%;
+}
+body{
+    background-color: white;
+    font-family: 'DM Sans', sans-serif;
+
+
+@media screen and (min-width:375px) {
+.sidebar{
+    background-color: white;
+    height: 283px;
+}
+.navbar-brand{
+font-weight: bolder;
+        color: #000;
+        font-family: 'DM Sans', sans-serif;
+        &__header{
+            font-weight: bolder;
+                color: #000;
+                text-decoration: none;
+                left: 26px;
+                position: absolute;
+              padding: 25px;
+              width: 5px;
+              
+        }
+}
+.nav-text{
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    color: #000;
+        text-align: center;
+        font-family: DM Sans;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 2.5px;
+        text-transform: uppercase;
+      
+        &__button{
+            width: 310px;
+                height: 48px;
+                background-color: #000;
+                color: white;
+                border: none;
+                text-align: center;
+                margin-left: 25px;
+                padding: 13px;
+                font-size: 15px;
+                font-weight: bold;
+
+        }
+}
+hr{
+    width: 310px;
+        height: 1px;
+        opacity: 0.25;
+            background: #000;
+            margin-left: 15px;
+}
+.image2{
+    padding: 16px;
+}
+.main-section{
+    background-color: #000;
+    width: 375px;
+   
+        height: 419px;
+        &__text1{
+            color: #FFF;
+                font-family: DM Sans;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 40px;
+                letter-spacing: 3.333px;
+                text-transform: uppercase;
+                margin: 33px;
+        }
+        &__text2{
+            color: #FFF;
+                font-family: DM Sans;
+                font-size: 15px;
+                 font-weight: 400;
+                line-height: 25px;
+            margin-left: 33px;
+            margin-right: 33px;
+                margin-top: 16px;
+        }
+        &__text3{
+            color: #FFF;
+                font-family: DM Sans;
+                font-size: 12px;
+                font-weight: 700;
+                letter-spacing: 2px;
+                margin-left: 33px;
+        }
+        svg{
+            margin-left: 16px;
+        }
+    }
+.main-section2{
+    background-color: #fff;
+        width: 375px;
+  height: 419px;
+    
+        &__text {
+        color: #000;
+            font-family: DM Sans;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 40px;
+            margin: 33px;
+            letter-spacing: 3.333px;
+            text-transform: uppercase;
+        }
+    
+        &__text1 {
+            color: #000;
+                font-family: DM Sans;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 25px;
+                margin-top: 16px;
+                margin-left: 33px;
+                margin-right: 33px;
+        }
+    
+        &__text2 {
+            color: #000;
+            font-family: DM Sans;
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            margin-left: 33px;
+            margin-top: 20px;
+        }
+    
+        svg {
+            margin-top: 2px;
+            margin-left: 16px;
+        }
+}
+.section3{
+    background-color:white;
+    width: 375px;
+    height: 419px;
+
+    &__text1{
+    color:black;
+        font-family: DM Sans;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+         letter-spacing: 3.333px;
+        text-transform: uppercase;
+        margin:33px;
+    }
+
+    &__text2 {
+        color: #000;
+        font-family: DM Sans;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        margin-top: 16px;
+        margin-left: 33px;
+        margin-right: 33px;
+    }
+         &__text3 {
+             color: #000000;
+             font-family: DM Sans;
+             font-size: 12px;
+             font-weight: 700;
+             letter-spacing: 2px;
+             margin-left: 33px;
+             margin-top: 23px;
+         }
+    
+         svg {
+           
+             margin-left: 16px;
+    }
+       
+}
+.section4{
+&__text {
+        position: relative;
+        top: -150px;
+        color: white;
+        
+    }
+    &__text1{
+color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    margin-left:30px;
+    
+    }
+    &__text2{
+        color: #FFF;
+            font-family: DM Sans;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-left: 30px;
+    }
+    &__text3{
+        margin-top: 20px;
+        color: #FFF;
+            font-family: DM Sans;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 2px;
+            margin-left: 30px;
+    }
+    &__line{
+        margin-top: 16px;
+        margin-left: 30px;
+    }
+    &__svg{
+        padding-left:117px;
+    }
+    &__img{
+        float:right;
+        margin-top: 36px;
+    }
+    &__text4{
+        color: #FFF;
+            font-family: DM Sans;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 25px;
+        margin-left: 30px;
+    }
+          &__text5 {
+        color: #FFF;
+            font-family: DM Sans;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 400;
+            margin-left: 30px;
+          }
+          &__hr__line1{
+                margin-top: 16px;
+                margin-left: 30px;
+                    
+          }
+          &__img1{
+            float: right;
+                margin-top: 32px;
+          }
+                   &__text6 {
+                       margin-top: 20px;
+                       color: #FFF;
+                       font-family: DM Sans;
+                       font-size: 12px;
+                       font-style: normal;
+                       font-weight: 700;
+                       line-height: normal;
+                       letter-spacing: 2px;
+                    margin-left: 30px;
+                   }
+    &__text7{
+        color: #FFF;
+            font-family: DM Sans;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 25px;
+        margin-left: 30px;
+    }   
+         &__text16 {
+             margin-top: 20px;
+             color: #FFF;
+             font-family: DM Sans;
+             font-size: 12px;
+             font-style: normal;
+             font-weight: 700;
+             line-height: normal;
+             letter-spacing: 2px;
+        margin-left: 30px;
+         }
+         &__text8 {
+             color: #FFF;
+             font-family: DM Sans;
+             font-size: 13px;
+             font-style: normal;
+             font-weight: 700;
+             line-height: 25px;
+            margin-left: 30px;
+         }
+         &__hr__line2 {
+          margin-top: 16px;
+        margin-left: 30px;
+            
+                          }
+&__img2 {
+    float: right;
+    margin-top: 25px;
+}
+ &__text9 {
+     color: #FFF;
+     font-family: DM Sans;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 25px;
+margin-left: 30px;
+
+ }
+
+ &__text10 {
+     color: #FFF;
+     font-family: DM Sans;
+     font-size: 13px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 25px;
+margin-left: 30px;
+ }
+
+ &__hr__line3 {
+     margin-top: 16px;
+    margin-left: 30px;
+ }
+ &__text11 {
+     margin-top: 20px;
+     color: #FFF;
+     font-family: DM Sans;
+     font-size: 12px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+     letter-spacing: 2px;
+margin-left: 30px;
+ }
+}
+.responsive{
+margin-left: 33px;
+margin-right: 32px;
+     height: 310px;
+    height: 802px;
+    &__mobile{
+       margin-left: 114px;
+       margin-top:-80px;
+        
+        
+    }
+    &__note{
+        color: #000;
+            text-align: center;
+            font-family: DM Sans;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 25px;
+            margin-top: 48px;
+    }
+    &__note1{
+        color: #000;
+            text-align: center;
+            font-family: DM Sans;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 25px;
+            margin-left: 31px;
+            margin-top: 16px;
+            margin-right: 31px;
+            
+    }
+    &__shape{
+        margin-left: 114px;
+            margin-top: 56px;
+    }
+        &__bull {
+            margin-left: 114px;
+            margin-top: 56px;
+        }
+}
+.footer{
+    width: 375px;
+    height: 539px;
+    background-color: #000;
+    margin-top: 80px;
+  
+    &__image2 {
+            margin-top: 56px;
+            margin-left: 102px;
+            margin-right: 70px;
+           
+        }
+        &__svg{
+            margin-top: 32px;
+                margin-left: 80px;
+                margin-right: 70px;
+               
+        }
+        &__icons{
+            display: flex;
+            margin-top: 32px;
+          justify-content: center;
+          gap: 14px;
+        }
+        &__pages{
+            color: #FFF;
+                text-align: center;
+                font-family: DM Sans;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                margin-top: 49px;
+               
+              
+        }
+        &__li{
+            text-decoration: none;
+            list-style: none;
+            margin-bottom: 19px;
+    
+        }
+       &__content {
+            margin-top: 119px;
+            color: #FFF;
+                font-family: DM Sans;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                margin-left: 102px;
+                letter-spacing: 2px;
+        }
+                 &__svg1 {
+                    margin-left: 22px;
+                 }
+   
+                                 &__copy {
+                                     margin-top: 34px;
+                                     color: #FFF;
+                                     text-align: center;
+                                     font-family: DM Sans;
+                                     font-size: 15px;
+                                     font-style: normal;
+                                     font-weight: 400;
+                                     line-height: normal;
+                                 }
+}
+
+     
+}
+}
+
+
+
+
+
+
